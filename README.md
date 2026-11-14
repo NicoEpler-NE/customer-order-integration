@@ -9,3 +9,24 @@ shared customer ID. When an order is received, the integration retrieves
 the associated customer information and makes a combined order and
 customer record available through an API. This gives staff a consistent
 view of the information without manually searching both systems.
+
+## Setup
+
+On Ubuntu 24.04, install the virtual environment package if needed:
+
+```bash
+sudo apt install python3.12-venv
+```
+
+Create and activate the environment from the project directory:
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+```
+
+To leave the environment:
+
+```bash
+deactivate
+```
